@@ -1,0 +1,152 @@
+ html,body
+{
+    width: 100%!important;
+    height: 100%!important;
+    margin: 0px!important;
+    padding: 0px!important;
+    overflow-x: hidden!important; 
+    left: calc(50% - 75px);
+}
+.stepwizard-step p {
+margin-top: 0px;
+color:#666;
+}
+.stepwizard-row {
+display: table-row;
+}
+.stepwizard {
+display: table;
+width: 100%;
+position: relative;
+}
+.stepwizard-step button[disabled] {
+/*opacity: 1 !important;
+filter: alpha(opacity=100) !important;*/
+}
+.stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+opacity:1 !important;
+color:#bbb;
+}
+
+.stepwizard-step {
+display: table-cell;
+text-align: center;
+position: relative;
+}
+.btn-circle {
+width: 30px;
+height: 30px;
+text-align: center;
+padding: 6px 0;
+font-size: 12px;
+line-height: 1.428571429;
+border-radius: 15px;
+}
+
+.card{
+width: 100%;
+margin-top: 36px;
+border:1px solid rgb(232 237 245)!important;
+height: 5rem;
+display: inline-grid;
+align-content: center;
+}
+
+
+
+/*.calendar {*/
+/* width: 350px;*/
+/*}*/
+
+.calendar__month {
+font-size: 20px;
+padding: 10px 0;
+width: 100%;
+position: relative;
+}
+
+.cal-month__previous,
+.cal-month__next {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+cursor: pointer;
+width: 30px;
+height: 30px;
+text-align: center;
+}
+.cal-month__next:hover {
+background-color: #42A5F5;
+box-shadow: 0 5px 5px -5px rgba(0,0,0,0.75);
+border-radius: 50%;
+font-weight: 800;
+color: #111;
+}
+
+
+.cal-month__next {
+right: 0;
+}
+
+.cal-month__current {
+text-align: center;
+color: #111;
+}
+
+.cal-head__day,
+.cal-body__day {
+display: inline-block;
+width: 50px;
+height: 50px;
+float: left;
+}
+
+.cal-body__week,
+.calendar__head {
+display: block;
+height: 50px;
+/*width: 350px;*/
+}
+
+.calendar__head {
+line-height: 50px;
+position: relative;
+}
+.calendar__head:after {
+content: ' ';
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+height: 1px;
+background-color: #90CAF9;
+}
+
+.cal-body__day {
+color: #c8c7c7;
+line-height: 50px;
+text-align: center;
+cursor: pointer;
+}
+.on{
+background-color: black;
+color: white;
+}
+.cal-day__month--current {
+color: #090909;
+}
+
+.cal-day__day--today {
+font-weight: 800;
+color: #2196f3;
+}
+
+.cal-day__day--selected {
+background-color: #2196f3;
+box-shadow: 0 5px 10px -5px rgba(0, 0, 0, .75);
+border-radius: 50%;
+color: #111;
+}
+.hover-border:hover{
+border: 1px solid black;
+}

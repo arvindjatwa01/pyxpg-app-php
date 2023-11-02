@@ -1,0 +1,107 @@
+/* Container with the banner image*/
+@media screen and (max-width: 417px){
+ .pricing-comparison{padding:20px}
+ .table td, .table th{padding:2px;}
+ .photo-comparison{padding:20px!important}
+ .photo-comparison .table th{padding:0px!important;word-wrap: break-word}
+ .intro-text h2{font-size:30px!important;margin:5px}
+ .intro-text p{margin:5px;}
+ #freelancing_table th,tr{font-size:14px;padding:5px}
+}
+
+@media screen and (max-width: 468px){
+/*#copy {
+    height: 12%;
+    bottom: 10px;
+    width: 178px;
+    left: calc(50% - 75px);*/
+    html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    left: calc(50% - 75px);
+}
+.left-padding{
+    
+	padding:0px!important;
+	
+}
+.photo-comparison{
+   
+    padding:10px;
+	background-color: #212121;
+}
+
+}
+
+.pricing-container{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.pricing-comparison{
+	position: relative;
+	text-align: center;
+	color: #787878;
+
+}
+
+
+/* Bottom-left text */
+
+.bottom-left{
+	position: absolute;
+	bottom: 110px;
+	left: 22px;
+	width: 40%;
+	text-align: left;
+}
+
+h2{
+	text-align: left;
+}
+
+
+p{
+	text-align:left;
+}
+
+/* Button design */
+
+.pricing-btn{
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+/* Pricing comparison */
+
+
+
+.top-padding{
+	padding-top: 40px;
+}
+.bottom-margin{
+	margin-bottom: 20px;
+}
+
+.left-padding{
+	padding-left: 22px;
+}	
+
+.table-center{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.photo-comparison{
+	background-color: #212121;
+}
+
+.text-white{
+	color: white;
+}
